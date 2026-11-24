@@ -31,11 +31,11 @@ The system is limited to line-to-line and line-to-ground faults in overhead dist
 
 ## Block diagram
 
-![Block diagram of the fault detection system](images/block-diagram.png)
+![Block diagram of the fault detection system](block-diagram.png)
 
 ## Circuit diagram
 
-![Circuit diagram](images/circuit-diagram.png)
+![Circuit diagram](circuit-diagram.png)
 
 ## Hardware
 
@@ -55,13 +55,13 @@ The system is limited to line-to-line and line-to-ground faults in overhead dist
 
 The system was simulated in Proteus 8 Professional, and the microcontroller was programmed with the Arduino IDE. The supply is a three-phase AC source. A current sensor is placed in each phase and in the neutral line, the line resistance is modelled with resistors, and the load is three LED bulbs. The LCD shows the faulted phase and the distance in km.
 
-![Proteus simulation](images/proteus-simulation.png)
+![Proteus simulation](proteus-simulation.png)
 
 ## Hardware prototype
 
 The simulation parameters were used to build a laboratory prototype. Cable length is represented by a set of resistors, and faults are created with switches at known distances so that the displayed distance can be checked.
 
-![Hardware prototype](images/hardware-prototype.png)
+![Hardware prototype](hardware-prototype.png)
 
 ## Advantages
 
@@ -91,7 +91,7 @@ The simulation parameters were used to build a laboratory prototype. Cable lengt
 | File | Description |
 | ---- | ----------- |
 | `Fault_Detection_Distribution_Lines_IoT_Report.pdf` | Full project report |
-| `images/` | Block diagram, circuit diagram, simulation and prototype photo, taken from the report |
+| `block-diagram.png`, `circuit-diagram.png`, `proteus-simulation.png`, `hardware-prototype.png` | Figures taken from the report |
 
 The report's appendix contains part of the Arduino code.
 
@@ -102,3 +102,5 @@ Arduino IDE, Proteus 8 Professional, Arduino Uno, Node MCU (ESP8266), GSM module
 ## Author of this repository
 
 Anjana Mahendran, M.Tech Instrumentation & Control Engineering, CUSAT
+
+
