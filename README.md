@@ -86,15 +86,6 @@ The simulation parameters were used to build a laboratory prototype. Cable lengt
 - Predictive maintenance models.
 - Better fault localization algorithms.
 
-## Files
-
-| File | Description |
-| ---- | ----------- |
-| `Fault_Detection_Distribution_Lines_IoT_Report.pdf` | Full project report |
-| `block-diagram.png`, `circuit-diagram.png`, `proteus-simulation.png`, `hardware-prototype.png` | Figures taken from the report |
-
-The report's appendix contains part of the Arduino code.
-
 ## Tools
 
 Arduino IDE, Proteus 8 Professional, Arduino Uno, Node MCU (ESP8266), GSM module, GPS module.
