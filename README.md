@@ -47,7 +47,8 @@ The system is limited to line-to-line and line-to-ground faults in overhead dist
 | Step-down transformer, bridge rectifier, 7805 regulator | 5 V power supply |
 | Relay module | Cuts off the load on a fault |
 | 16x2 LCD | Shows the faulted phase and distance |
-| GSM module / Node MCU (ESP8266) | Sends the fault information to the utility |
+| GSM module (SIM900-type) | Sends fault information through GSM communication |
+| NodeMCU (ESP8266) | Provides Wi-Fi-based IoT communication |
 | GPS module | Provides location data |
 | Buzzer | Alerts people near the fault |
 
