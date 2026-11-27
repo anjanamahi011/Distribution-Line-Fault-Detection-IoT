@@ -26,6 +26,7 @@ Faults on the low-tension side of distribution lines are usually found by inspec
 4. The LCD (16x2) shows the faulted phase and the distance in km.
 5. A relay disconnects the load from the faulted line.
 6. The GSM module (SIM900-type) and ESP8266/NodeMCU provide communication functions for transmitting fault information. The GPS module provides location data associated with the fault.
+
 The system is limited to line-to-line and line-to-ground faults in overhead distribution lines.
 
 ## Block diagram
