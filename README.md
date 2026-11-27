@@ -1,6 +1,7 @@
 # Automatic Fault Detection and Location in Distribution Lines using IoT
 
 **B.Tech Project | Electrical and Electronics Engineering | KMEA Engineering College, Edathala (APJ Abdul Kalam Technological University) | May 2023**
+
 An Arduino-based laboratory prototype for detecting faults in a distribution line, identifying the affected phase and estimating the fault distance. The system displays fault information on an LCD, disconnects the load through a relay, and incorporates GSM, Wi-Fi-based IoT and GPS modules for communication and location information.
 
 > **Scope note:** This was a laboratory prototype. The line is modelled with a set of resistors that represent cable length in km, and faults are created manually with switches. The project was also simulated in Proteus 8. The report describes the working of the system but does not give a quantitative accuracy analysis of the distance estimate.
